@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>B.B.Vibes</title>
+  <title>BlvckBlossom</title>
   <link rel="stylesheet" href="normalize.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
@@ -13,16 +13,19 @@
   <!--linking stylesheet-->
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="style.scss" />
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 </head>
 
 <!--- nav bar start-->
 
-<body style="background-color: rgb(129, 123, 123);">
+<body style="background-color: rgb(10, 121, 47);">
   <header>
     <div class="p-3 mb-2 bg-transparent text-dark">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">B.B.Vibees</a>
+          <a class="navbar-brand" href="#">BlvckBlossom</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,16 +33,16 @@
           <div class="navbar-collapse collapse justify-content-center" id="mainNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="flowers.html">Flowers</a>
+                <a class="nav-link" href="aboutMe.html">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="stones.html">Stones</a>
+                <a class="nav-link" href="blogs.html">BLOGS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="goodies.html">Goodies</a>
+                <a class="nav-link" href="projects.html">PROJECTS</a>
               </li>
             </ul>
           </div>
@@ -54,65 +57,129 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
-
-  <!--Flower Gallery Start-->
-  <!---Feature Start-->
   
-  <div class="card text-center">
-    <div class="card-header">
-      Featured
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Flower Power</h5>
-      <p class="card-text">Flowers are more than just pretty little plants to look at. They have a lot of benefits.</p>
-    </div>
-    <div class="card-footer text-muted">
-      *Flower Properties
-    </div>
-  </div>
-
-  <!---Feature Finish-->
-
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img src="roses1.jpg" class="card-img-top" alt="manyRedRoses">
-        <div class="card-body">
-          <h5 class="card-title">Roses</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  <!--homeGallery-->
+    <main>
+      <div class="intro">
+        <h1>Welcome To BlvckBlossom!</h1>
+        <p>A Wynning Brand <a href="http://InkiiSheepii.com" target="http://InkiiSheepii.com"">InkiiSheepii</a></p>
+        <br>
+        <p> Natural Blogs | Ideas | Inspiration </p>
+      </div>
+      
+      <div class="gridywrap">
+        <div class="gridy-2 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/lavender.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Lavender</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Lovely In Lavender. Learn More About This Hazy Beau.</p>
+            <a href="flower.html" class="grid-btn grid-more"><span>View</span> <i class="fa fa-plus"></i></a>
+          </div>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Roses make wonderful natural skin</small>
+        <div class="gridy-1 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/roses1.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Roses.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 19th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Roses Are Red!...Not Always.</p>
+            <a href="flower.html" class="grid-btn grid-more"><span>View</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-2">
+          <div class="gridimg" style="background-image: url(images/jade.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Jade.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Enter The Jaded Palace of Everything Jade.</p>
+            <a href="crystal.html" class="grid-btn grid-more"><span>View</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-2 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/mushrooms.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Mushrooms.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Fun With Fungi! The Wonderful World Of Mushrooms!</p>
+            <a href="#" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/moonPhases.jpg)">&nbsp;</div>
+          <div class="gridinfo">
+            <h3>Moon Phases.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Talking To The Moon! Learn the phases of The Moon & it's properties.</p>
+            <a href="goodies.html" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/sage.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Sage.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Saging Like A Boss! Learn Saging Techniques & different sages.</p>
+            <a href="goodies.html" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="lavender.jpg" class="card-img-top" alt="lavenderFlowers">
-        <div class="card-body">
-          <h5 class="card-title">Lavender</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Try Lavender Lemon Cookies as a bedtime treat.</small>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Flower Gallery End -->
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 </body>
+
+<!---Footer Starts-->
+
+<footer>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<a href="index.html" class="footer-logo mb-4">B.B.Vibes</a>
+					<ul class="list-inline footer-menu">
+						<li class="list-inline-item">
+							<a href="index.html">HOME</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="aboutMe.html">ABOUT</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#service">SERVICES</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#contact">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--Footer Ends-->
 
 </html>
