@@ -379,18 +379,18 @@ footer p.copyright-text a:hover {
 /*Footer Ends */
 /*Flower Start*/
 
-.flowerContainer {
+.lightbox-gallery {
   background-image: linear-gradient(#e3dee9, #131212);
   background-repeat: no-repeat;
   color: #000;
   overflow-x: hidden
 }
 
-.flowerContainer p {
-  color: #fff
+.lightbox-gallery p {
+  color: rgb(0, 0, 0)
 }
 
-.flowerContainer h2 {
+.lightbox-gallery h2 {
   font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
@@ -398,27 +398,27 @@ footer p.copyright-text a:hover {
 }
 
 @media (max-width:767px) {
-  .flowerContainer h2 {
+  .lightbox-gallery h2 {
       margin-bottom: 25px;
       padding-top: 25px;
       font-size: 24px
   }
 }
 
-.flowerContainer .intro {
+.lightbox-gallery .intro {
   font-size: 16px;
   max-width: 500px;
   margin: 0 auto 40px
 }
 
-.flowerContainer .intro p {
+.lightbox-gallery .intro p {
   margin-bottom: 0
 }
 
-.flowerContainer .photos {
+.lightbox-gallery .photos {
   padding-bottom: 20px
 }
 
-.flowerContainer .item {
+.lightbox-gallery .item {
   padding-bottom: 30px
 }
