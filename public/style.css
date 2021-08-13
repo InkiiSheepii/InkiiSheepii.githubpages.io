@@ -377,3 +377,48 @@ footer p.copyright-text a:hover {
 }
 
 /*Footer Ends */
+/*Flower Start*/
+
+.flowerContainer {
+  background-image: linear-gradient(#e3dee9, #131212);
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden
+}
+
+.flowerContainer p {
+  color: #fff
+}
+
+.flowerContainer h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .flowerContainer h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+  }
+}
+
+.flowerContainer .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px
+}
+
+.flowerContainer .intro p {
+  margin-bottom: 0
+}
+
+.flowerContainer .photos {
+  padding-bottom: 20px
+}
+
+.flowerContainer .item {
+  padding-bottom: 30px
+}
