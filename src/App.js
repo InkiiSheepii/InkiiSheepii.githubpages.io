@@ -10,8 +10,10 @@ function App() {
       <h1>Login Page</h1>
     </div>
   );
+  
   const {loginWithRedirect} = useAuth0();
   loginWithRedirect();
 };
 
 export default App;
+
