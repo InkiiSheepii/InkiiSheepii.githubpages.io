@@ -377,10 +377,10 @@ footer p.copyright-text a:hover {
 }
 
 /*Footer Ends */
-/*Flower Start*/
+/*Gallery Start*/
 
 .lightbox-gallery {
-  background-image: linear-gradient(#e3dee9, #131212);
+  background-image: linear-gradient(#ffffff, #032e0e);
   background-repeat: no-repeat;
   color: #000;
   overflow-x: hidden
@@ -422,3 +422,8 @@ footer p.copyright-text a:hover {
 .lightbox-gallery .item {
   padding-bottom: 30px
 }
+
+/*Gallery Ends */
+
+/*Body Content Starts*/
+
