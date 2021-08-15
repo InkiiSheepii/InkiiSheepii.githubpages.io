@@ -11,8 +11,9 @@ function App() {
     </div>
   );
   
-  const {loginWithRedirect} = useAuth0();
+  
   loginWithRedirect();
+  const {loginWithRedirect} = useAuth0();
 };
 
 export default App;
