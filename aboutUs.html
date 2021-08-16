@@ -2,220 +2,181 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B.B.Vibes</title>
-    <link rel="stylesheet" href="normalize.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B.B.Vibe</title>
+  <link rel="stylesheet" href="normalize.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
-    <!--linking stylesheet-->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.scss" />
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <!--linking stylesheet-->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.scss" />
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 </head>
 
-<!--- nav bar starts-->
+<!--- nav bar start-->
 
-<body style="background-color: rgb(white);">
-    <header>
-        <div class="p-3 mb-2 bg-transparent text-dark">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">B.B.Vibes</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse justify-content-center" id="mainNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="abouUs.html">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blogs.html">BLOGS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">PROJECTS</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<body style="background-color: whitesmoke;">
+  <header>
+    <div class="p-3 mb-2 bg-transparent text-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">B.B.Vibes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-center" id="mainNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">PROJECTS</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!--/nav bar-->
+      </nav>
+    </div>
+    <!--nav bar ends-->
 
-    </header>
+  </header>
 
-    <!--bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-
-    <!---intro  start-->
-    <!--- section title starts-->
-    <section class="about-2 section" id="about">
-        <div class="container">
-            <div class="row">
-    
-                <!-- section title -->
-                <div class="col-12">
-                    <div class="title text-center">
-                        <h2>About Us</h2>
-                        <p>A Team is only as great as it's members.</p>
-                        <div class="border"></div>
-                    </div>
-                </div>
-                <!--/section ends-->
-                <div class="col-md-6">
-                    <img src="images/meTimes2.JPG" class="img-fluid" alt="photoOfDomWynnSiver">
-                </div>
-                <div class="col-md-6">
-                    <ul class="checklist">
-                        <li>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
-                        <li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
-                        <li>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
-                        <li>Etiam porta sem multipage evint landing magna mollis euismod a pharetra augue.</li>
-                        <li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
-                    </ul>
-                    <a href="https://www.inkiisheepii.com" class="btn btn-main mt-20">Learn More</a>
-                </div>
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  
+  <!--homeGallery-->
+    <main>
+      <div class="intro">
+        <h1>Welcome To B.B.Vibe!</h1>
+        <p>A Wynning Brand <a href="http://InkiiSheepii.com" target="http://InkiiSheepii.com"">InkiiSheepii</a></p>
+        <br>
+        <p> Natural Blogs | Ideas | Inspiration </p>
+      </div>
+      
+      <div class="gridywrap">
+        <div class="gridy-2 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/lavender.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Lavender</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
             </div>
-                <!-- /section title -->
-                <!---/intro-->
-        
-        <!-- project starts-->
-         <section class="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="heading">
-                            <h2>Check Out My Projects!</h2>
-                        </div>
-
-                        <div class="gallery-slider">
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/lavender.jpg" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/lavender.jpg" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/showcase-2.png" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/showcase-4.png" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/showcase-2.png" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/showcase-5.png" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/showcase-2.png" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/showcase-6.png" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/showcase-2.png" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/showcase-7.png" alt="">
-                            </div>
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/mushrooms.jpg" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/lavender.jpg" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/roses1.jpg" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/showcase-4.png" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/showcase-2.png" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-
-                                <img class="img-fluid" src="images/showcase-5.png" alt="">
-                            </div>
-
-                            <div class="block">
-                                <div class="gallery-overlay">
-                                    <a href="images/showcase-2.png" class="image-popup gallery-popup">
-                                        <i class="tf-ion-ios-search"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!--/project ends-->
-        <!----footer starts-->
-        <footer>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <a href="index.html" class="footer-logo mb-4">B.B.Vibes</a>
-                            <ul class="list-inline footer-menu">
-                                <li class="list-inline-item">
-                                    <a href="index.html">HOME</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="aboutMe.html">ABOUT ME</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="blogs.html">BLOGS</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="projects.html">PROJECTS</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <p class="gridexerpt">Lovely In Lavender. Learn More About This Hazy Beau.</p>
+            <a href="flowers.html" class="grid-btn grid-more"><span>View</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/roses1.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Roses.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 19th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
             </div>
-        </footer>
-        </html>
+            <p class="gridexerpt">Roses Are Red!...Not Always.</p>
+            <a href="flowers.html" class="grid-btn grid-more"><span>View</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-2">
+          <div class="gridimg" style="background-image: url(images/jade.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Jade.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Enter The Jaded Palace of Everything Jade.</p>
+            <a href="stones.html" class="grid-btn grid-more"><span>View</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-2 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/mushrooms.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Mushrooms.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Fun With Fungi! The Wonderful World Of Mushrooms!</p>
+            <a href="flowers.html" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/moonPhases.jpg)">&nbsp;</div>
+          <div class="gridinfo">
+            <h3>Moon Phases.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Talking To The Moon! Learn the phases of The Moon & it's properties.</p>
+            <a href="goodies.html" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+        <div class="gridy-1 gridyhe-1">
+          <div class="gridimg" style="background-image: url(images/sage.jpg)">&nbsp;</div>
+          
+          <div class="gridinfo">
+            <h3>Sage.</h3>
+            <div class="gridmeta">
+              <p class="gridwhen"><i class="fa fa-clock-o"></i> 18th May 2021</p>
+              <p class="gridwho"><i class="fa fa-user"></i> D Wynn</p>
+            </div>
+            <p class="gridexerpt">Saging Like A Boss! Learn Saging Techniques & different sages.</p>
+            <a href="flowers.html" class="grid-btn grid-more"><span>More</span> <i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+      </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+
+<footer>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<a href="index.html" class="footer-logo mb-4">B.B.Vibes</a>
+					<ul class="list-inline footer-menu">
+						<li class="list-inline-item">
+							<a href="index.html">HOME</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="aboutUs.html">ABOUT US</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="blogs.html">BLOGS</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="projects.html">PROJECTS</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</html>
