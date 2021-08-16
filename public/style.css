@@ -208,7 +208,7 @@ html body * {
   .gridywrap .gridyhe-2 {height: 640px;}
 }
 
-/*styling*/
+
 .gridywrap .gridimg {
   position: absolute;
   top: 0;
@@ -360,23 +360,9 @@ footer .footer-logo {
   display: block;
 }
 
-footer p.copyright-text {
-  font-weight: 300;
-  font-size: 12px;
-  color: #888;
-  letter-spacing: 3px;
-  margin-top: 15px;
-}
-
-footer p.copyright-text a {
-  color: #282828;
-}
-
-footer p.copyright-text a:hover {
-  text-decoration: none;
-}
 
 /*Footer Ends */
+
 /*lightbox Start*/
 
 .lightbox-gallery {
