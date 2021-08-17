@@ -413,7 +413,7 @@ footer .footer-logo {
 
 /*container-intro starts*/
 
-.container-intro {
+.container {
   display: flex;
   width: 100%;
   padding: 4% 2%;
@@ -421,7 +421,7 @@ footer .footer-logo {
   height: 100vh;
 }
 
-.boxIntro {
+.box {
   flex: 1;
   overflow: hidden;
   transition: .5s;
@@ -430,14 +430,14 @@ footer .footer-logo {
   line-height: 0;
 }
 
-.boxIntro > img {
+.box > img {
   width: 200%;
   height: calc(100% - 10vh);
   object-fit: cover; 
   transition: .5s;
 }
 
-.boxIntro > span {
+.box > span {
   font-size: 3.8vh;
   display: block;
   text-align: center;
