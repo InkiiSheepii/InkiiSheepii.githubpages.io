@@ -340,29 +340,6 @@ html body * {
 
 /* homePage ends */
 
-/* footer starts */
-
-.footer-menu a {
-  font-size: 14;
-  font-weight: 700;
-  color: #444;
-  padding: 10px;
-}
-
-footer {
-  text-align: center;
-  background: #f4f4f4;
-  padding: 50px 0px;
-}
-
-footer .footer-logo {
-  color: #555;
-  display: block;
-}
-
-
-/*footer ends */
-
 /*lightbox start*/
 
 .lightbox-gallery {
