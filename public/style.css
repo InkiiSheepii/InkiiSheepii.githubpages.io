@@ -401,3 +401,9 @@ html body * {
   color: white;
   font-style: bold;
 }
+
+#stoneHeader {
+  background: url(images/citrine.jpg) center center / cover no-repeat ;
+  color: black;
+  font-style: bold;
+}
