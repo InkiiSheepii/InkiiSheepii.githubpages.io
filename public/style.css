@@ -388,3 +388,6 @@ html body * {
 
 /*lightbox ends */
 
+#header {
+  background: url(images/roses1.jpg) center center / cover no-repeat ;
+}
