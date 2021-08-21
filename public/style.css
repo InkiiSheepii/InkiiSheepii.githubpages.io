@@ -388,6 +388,16 @@ html body * {
 
 /*lightbox ends */
 
-#header {
+/* all page headers */
+
+#homeHeader {
+  background: url(images/roseBushClose.jpg) center center / cover no-repeat ;
+  color: white;
+  font-style: bold;
+}
+
+#flowerHeader {
   background: url(images/roses1.jpg) center center / cover no-repeat ;
+  color: white;
+  font-style: bold;
 }
