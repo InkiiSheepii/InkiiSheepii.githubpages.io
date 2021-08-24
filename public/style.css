@@ -408,6 +408,12 @@ html body * {
   font-style: bold;
 }
 
+#projectsHeader {
+  background: url(images/projects.jpg) center center / cover no-repeat ;
+  color: white;
+  font-style: bold;
+}
+
 /* all page headers ends */
 
 
