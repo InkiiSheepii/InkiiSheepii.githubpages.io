@@ -420,6 +420,13 @@ html body * {
   font-style: bold;
 }
 
+#aboutUsHeader {
+  background: url(images/teamEffort.jpg) center center / cover no-repeat ;
+  color: white;
+  font-style: bold;
+}
+
+
 /* all page headers ends */
 
 
