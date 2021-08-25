@@ -426,9 +426,9 @@ html body * {
   font-style: bold;
 }
 
-
 /* all page headers ends */
 
+/* about us starts */
 
 h2 {
   font-weight: bold;
@@ -521,10 +521,9 @@ h2 {
   opacity: 1
 }
 
-/* ends */
+/* about us ends */
 
-/* starts */
-
+/* project layout starts */
 .box{
   color: #fff;
   background: #2b3c4e;
@@ -595,4 +594,39 @@ h2 {
 .box .icon li  a:hover{ box-shadow: 0 0 5px #222f3d inset; }
 @media only screen and (max-width:990px){
   .box { margin: 0 0 30px; }
+}
+/* project layout ends */
+
+/* about us page */
+
+.about {
+  padding: 100px 0;
+  background: rgb(173, 172, 172);
+}
+
+.about .btn-about {
+  background: #28ABE3;
+}
+
+.about p {
+  margin-top: 30px;
+}
+
+.about .feature-list {
+  margin-top: 10px;
+}
+
+.about .feature-list li {
+  width: 48%;
+  display: inline-block;
+  color: #666;
+  font-size: 13px;
+  font-family: "Catamaran", sans-serif;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.about .feature-list li i {
+  color: #28ABE3;
+  margin-right: 8px;
 }
